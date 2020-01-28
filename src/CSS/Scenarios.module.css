@@ -1,0 +1,21 @@
+.defaultScensTxt {
+  font-family: "Noto Sans", sans-serif;
+  font-size: large;
+}
+
+.scenariosArea {
+  margin-top: 40px;
+  height: 640px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-self: center;
+  align-content: center;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+  border-radius: 300px;
+  margin: 20px;
+}
