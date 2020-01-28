@@ -1,0 +1,154 @@
+.titleArea {
+  height: 640px;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7dc79424-1194-4f58-aca7-117a160d1361/dlen2o-e0194ef8-d84a-43c9-92d9-a12d024c9a98.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdkYzc5NDI0LTExOTQtNGY1OC1hY2E3LTExN2ExNjBkMTM2MVwvZGxlbjJvLWUwMTk0ZWY4LWQ4NGEtNDNjOS05MmQ5LWExMmQwMjRjOWE5OC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.HnqXu8_j-Ngy-pQc1BY-DhU5_6R0qBQpm7JID6Ogk-E");
+  background-color: black;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  color: white;
+  font-family: "Righteous", cursive;
+  font-size: 100px;
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  margin: 0px;
+  padding: 0px;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.logo {
+  margin-top: 20px;
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+}
+
+.userLogin {
+  font-family: "Noto Sans", sans-serif;
+  font-size: x-large;
+}
+
+.submitBtn {
+  flex: 1 1 auto;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 2s;
+  background-size: 200% auto;
+  color: 000000;
+  background-position: right center;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.submitBtn:hover {
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #414345 51%,
+    #ffffff 100%
+  );
+}
+
+.createAccount {
+  font-family: "Noto Sans", sans-serif;
+  font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+  .titleArea {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7dc79424-1194-4f58-aca7-117a160d1361/dlen2o-e0194ef8-d84a-43c9-92d9-a12d024c9a98.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdkYzc5NDI0LTExOTQtNGY1OC1hY2E3LTExN2ExNjBkMTM2MVwvZGxlbjJvLWUwMTk0ZWY4LWQ4NGEtNDNjOS05MmQ5LWExMmQwMjRjOWE5OC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.HnqXu8_j-Ngy-pQc1BY-DhU5_6R0qBQpm7JID6Ogk-E");
+    background-color: black;
+    background-size: fit;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .title {
+    color: white;
+    font-family: "Righteous", cursive;
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    margin: 0px;
+    padding-top: 40px;
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  .userLogin {
+    font-family: "Noto Sans", sans-serif;
+    font-size: large;
+  }
+
+  .inputBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: center;
+    align-content: center;
+  }
+
+  .submitBtn {
+    flex: 1 1 auto;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 2s;
+    background-size: 200% auto;
+    color: 000000;
+    background-position: right center;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+  }
+
+  .submitBtn:hover {
+    background-image: linear-gradient(
+      to right,
+      #232526 0%,
+      #414345 51%,
+      #ffffff 100%
+    );
+  }
+
+  .createAccount {
+    font-family: "Noto Sans", sans-serif;
+    font-size: medium;
+  }
+}
