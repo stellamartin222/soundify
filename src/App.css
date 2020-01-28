@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7dc79424-1194-4f58-aca7-117a160d1361/dlen2o-e0194ef8-d84a-43c9-92d9-a12d024c9a98.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdkYzc5NDI0LTExOTQtNGY1OC1hY2E3LTExN2ExNjBkMTM2MVwvZGxlbjJvLWUwMTk0ZWY4LWQ4NGEtNDNjOS05MmQ5LWExMmQwMjRjOWE5OC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.HnqXu8_j-Ngy-pQc1BY-DhU5_6R0qBQpm7JID6Ogk-E");
+  background-color: black;
+  background-size: cover;
 }
 
 .App-logo {

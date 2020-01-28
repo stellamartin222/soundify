@@ -1,0 +1,77 @@
+.createAccountText {
+  font-family: "Noto Sans", sans-serif;
+  font-size: x-large;
+}
+
+.userArea {
+  margin-top: 40px;
+  height: 640px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-self: center;
+  align-content: center;
+}
+
+.userImg {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.userLogin {
+  font-family: "Noto Sans", sans-serif;
+  font-size: large;
+}
+
+.formLayout {
+  grid-template-columns: 1fr;
+  align-self: center;
+  align-content: center;
+  max-width: 300px;
+}
+
+.submitBtn {
+  flex: 1 1 auto;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 2s;
+  background-size: 200% auto;
+  color: 000000;
+  background-position: right center;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.submitBtn:hover {
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #414345 51%,
+    #ffffff 100%
+  );
+}
+
+@media only screen and (max-width: 600px) {
+  .userArea {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    align-content: center;
+  }
+
+  .userImg {
+    height: 120px;
+    width: 120px;
+    border-radius: 120px;
+  }
+
+  .inputBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: center;
+    align-content: center;
+  }
+}

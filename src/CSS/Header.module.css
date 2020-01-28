@@ -1,0 +1,71 @@
+.homeBtnArea {
+  display: grid;
+  grid-template-columns: 8fr;
+  align-content: center;
+  align-self: center;
+}
+
+.homeBtn {
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  align-content: right;
+}
+
+.title {
+  color: white;
+  font-family: "Righteous", cursive;
+  font-size: 100px;
+  position: relative;
+  text-align: center;
+  color: whitesmoke;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  margin: 0px;
+  padding: 0px;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    color: white;
+    font-family: "Righteous", cursive;
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    margin: 0px;
+    padding-top: 40px;
+  }
+
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+}
